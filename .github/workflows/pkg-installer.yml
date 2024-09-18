@@ -38,7 +38,7 @@ jobs:
           cask: false
           test-bot: false
 
-      - name: Install Pandoc
+      - name: Install pandoc
         run: brew install pandoc
 
       - name: Create and unlock temporary macOS keychain
